@@ -16,7 +16,7 @@ export function Initial() {
             Simple Password
           </button>
         </Link>
-        <Link to="/randomString">
+        <Link to="/catchyPassword">
             <button 
             className="bg-black hover:bg-slate-600 text-white px-6 py-3 rounded-xl transition-all">
                 Catchy Password
