@@ -1,9 +1,9 @@
 import { useState } from "react";
 import {generate} from "random-words";
 import {Link, Router, Routes, Route} from "react-router-dom";
-import Randomstring from "./RandomString";
+// import Randomstring from "./RandomString";
 
-export default function Simple() {
+export default function RandomString() {
   <link to="/randomString" />
   const [password, setPassword] = useState("");
   const [length, setLength] = useState(3);
