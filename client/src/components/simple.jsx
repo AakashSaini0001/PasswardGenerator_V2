@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {generate} from "random-words";
 import {Link, Router, Routes, Route} from "react-router-dom";
-import Randomstring from "./RandomString";
+import RandomString from "./randomString";
 
 export default function Simple() {
   <Link to="/simplePassword" />
@@ -122,7 +122,7 @@ export default function Simple() {
         <h1 className="text-md font-bold text-black mt-6 mb-3 drop-shadow">
            Generate Easy to remember Password 👇
         </h1>
-        <Link to="/randomString">
+        <Link to="/catchyPassword">
             <button 
             className="bg-black hover:bg-slate-600 text-white px-6 py-3 rounded-xl transition-all">
                 Generate Catchy Password
