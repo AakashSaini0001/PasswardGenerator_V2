@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {generate} from "random-words";
 import {Link, Router, Routes, Route} from "react-router-dom";
-// import Randomstring from "./RandomString";
 
 export default function RandomString() {
   <link to="/randomString" />
