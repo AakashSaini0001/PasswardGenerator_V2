@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DarkMode from "./components/darkMode";
+import DarkMode from "./darkMode";
 
 export function Initial() {
   return (
