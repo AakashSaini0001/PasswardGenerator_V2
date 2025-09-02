@@ -2,7 +2,7 @@ import { useState } from 'react'
 import react from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Simple from './components/simple'
-import Randomstring from './components/RandomString'
+import Randomstring from './components/randomString'
 import './App.css'
 import {Initial} from './components/initial'
 
