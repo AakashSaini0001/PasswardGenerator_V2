@@ -2,7 +2,7 @@ import { useState } from 'react'
 import react from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Simple from './components/simple'
-import Randomstring from './components/randomString'
+import RandomString from './components/randomString'
 import './App.css'
 import {Initial} from './components/initial'
 
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Initial />} />
         <Route path='/simplePassword' element={<Simple/>}/> Simple Password Generator
-        <Route path='/randomString'element={<Randomstring/>} /> String Combination Password Generator
+        <Route path='/catchyPassword'element={<RandomString/>} /> String Combination Password Generator
       </Routes>
     </BrowserRouter>
     </>
