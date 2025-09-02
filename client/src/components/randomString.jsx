@@ -3,7 +3,7 @@ import {generate} from "random-words";
 import {Link, Router, Routes, Route} from "react-router-dom";
 // import Randomstring from "./RandomString";
 
-export default function Randomstring() {
+export default function RandomString() {
   <link to="/randomString" />
   const [password, setPassword] = useState("");
   const [length, setLength] = useState(3);
