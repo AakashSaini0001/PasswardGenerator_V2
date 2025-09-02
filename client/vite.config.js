@@ -5,8 +5,4 @@ import tailwindcss from "@tailwindcss/vite"; // Add this line
 export default defineConfig({
   darkMode: 'class',
   plugins: [react(), tailwindcss()], // Add tailwindcss() here
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 });
